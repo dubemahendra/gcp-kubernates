@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Pod
+metadata: 
+  name: ngnix
+  labels: 
+    app:  ngnix
+spec: 
+  containers:
+  - name: ngnix
+    imahe:  ngnix:latest
